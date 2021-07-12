@@ -1,0 +1,28 @@
+.app {
+    text-align: center;
+  }
+  
+  .header-container {
+    height: 100px;
+    border-bottom: 5px solid rgb(30, 105, 192);
+  }
+  
+  .row {
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .left {
+      flex:30%;
+      padding: 0.5%;
+      height: 58rem;
+    flex: 70%;
+  }
+  
+  .right {
+    flex: 30%;
+    padding: 0.5%;
+    height: 58rem;
+    overflow-y: scroll; 
+  }

@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-header class="card-header">Incidents in Florida</mat-card-header>
+    <div class="container">
+        <table class="table table-bordered table-striped">
+          <thead>
+          <tr>
+            <th>ID</th>
+
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let crash of crashes">
+            <td><span>{{crash}}</span></td>
+
+          </tr>
+          </tbody>
+        </table>
+      </div>
+</mat-card>

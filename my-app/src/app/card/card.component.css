@@ -1,0 +1,11 @@
+mat-card {
+    /* padding: 1em; */
+    height: 100%;
+    background-color:lightgray;
+    width: 100%;
+    
+
+}
+.card-header {
+    font-size: 30px;
+}
